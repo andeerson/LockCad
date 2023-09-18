@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="SkyNetSystem.exe" version="1.0.0.0" publicKeyToken="b8556d50bd04b68c" language="pt-BR" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="cadeado.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="SkyNetSystem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="SkyNetSystem.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SkyNetSystem.exe" size="734120">
+      <assemblyIdentity name="SkyNetSystem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>c66xQ0r+74bLSz5TAuDbjP9WGo38WlEZhI8iqgdgMsU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="cadeado.ico" size="270398">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mVVeEh7OMv8Wq19T89c3tsoK+FDEIXFTAhAbIkyFYPQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SkyNetSystem.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h0UeIdteCM29dGVw07LmHp593fPbh0IN11GyN3f2uRA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=Igor-PC\Igor" issuerKeyHash="ce29cd86a4bdb6b1087462b9a0d967f85ba0d690" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lgQiJPLjo+jAYADoAnMuJtFcsbokC6sgxe1ZGme8tCQ=</DigestValue></Reference></SignedInfo><SignatureValue>PFdK0ZvBLVkg3kQsOa+OcJW1dG71TtqlPjRzfikBCSAAzMQa6mJyp7GapP48PUt1R6qwi/cvZRMGlFMVbIQw1/xLsjfGCe6dMOseYt9cIkURJdC/KlqI4ItEt8mupb4l6bi06rNz90ZxlJmkuBDvieRbpu7RheXCzwIczrmgiIE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>moHn+FYshA1XCfL7o1S5yQsi0OUMN/wc15mg8QQVKpZsAes2jUd7CZyrtLkfruhcxRZtNG++36tYfBCjMCXyRa+a46iD6KeQaRtX3ThS9xmqRJHVMkJ4VuL654syieFS0/EWj0mCAsfIth058xc2ha/WzIo6Unmv71eAilXUpb0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="24b4bc671a59edc520ab0b24bab15cd1262e7302e80060c0e8a3e3f224220496" Description="" Url=""><as:assemblyIdentity name="SkyNetSystem.exe" version="1.0.0.0" publicKeyToken="b8556d50bd04b68c" language="pt-BR" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Igor-PC\Igor</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>82cELwvgQg6CKYLdca5hXAy+Cv7kIPx8PzvfAG7VXHc=</DigestValue></Reference></SignedInfo><SignatureValue>iSbmiAjzYTVLZyI9U+15+ZuxTJdh76vlvIWvYffsO6PkYbQKKxOAp/Oxj+ygYq2PyXzZii6r1IMb4tHoNI3C9bVu9xCK25ayMcH6a8hCeTBbxY/Wvfb3f0QW/o4wQ9scSp5C9l6r/7aNGS7TX1PQ3K7CgpwUKsIEGFc0fPyuoQY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>moHn+FYshA1XCfL7o1S5yQsi0OUMN/wc15mg8QQVKpZsAes2jUd7CZyrtLkfruhcxRZtNG++36tYfBCjMCXyRa+a46iD6KeQaRtX3ThS9xmqRJHVMkJ4VuL654syieFS0/EWj0mCAsfIth058xc2ha/WzIo6Unmv71eAilXUpb0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQW4sJ/+uL1oRE2LFt1GVClDANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgASQBnAG8AcgAtAFAAQwBcAEkAZwBvAHIwHhcNMTUwMzI4MjMxMzQ5WhcNMTYwMzI4MDUxMzQ5WjAjMSEwHwYDVQQDHhgASQBnAG8AcgAtAFAAQwBcAEkAZwBvAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJqB5/hWLIQNVwny+6NUuckLItDlDDf8HNeZoPEEFSqWbAHrNo1Hewmcq7S5H67oXMUWbTRvvt+rWHwQozAl8kWvmuOog+inkGkbV904UvcZqkSR1TJCeFbi+ueLMonhUtPxFo9JggLHyLYdOfMXNoWv1syKOlJ5r+9XgIpV1KW9AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAeXkQe2v++3QfeKBkeQ1EHzkgjeKEEPB4uJAzEHkOV4fp8K0cou4Fud/ZnsiBz7zPNgN6QJ5aLREvbUlTqwKYCIVfO/EXV7+33MWPI/PxwEmH3u41vGtwQ5PgDf7aH/miHTrzg2uHv8EV7XkizS0GkD+cUVNzSAoU+IIAhm+IRO0=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
